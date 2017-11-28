@@ -13,7 +13,7 @@ from src.base.objs.modules.GaussianBlur.GaussianBlur import GaussianBlur
 
 def main():
 
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     threshold = Threshold()
     blur = GaussianBlur()
     faceDetector = CascadeObject(CascadeObject.FACE_FRONTAL_ALT)
