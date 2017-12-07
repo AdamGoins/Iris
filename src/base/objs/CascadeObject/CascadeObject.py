@@ -17,6 +17,8 @@ class CascadeObject:
     MOUTH         = "haarcascade_mcs_mouth.xml"
     NOSE          = "haarcascade_mcs_nose.xml"
     FACE_PROFILE  = "haarcascade_profileface.xml"
+    PALM          = "palm.xml"
+    FIST          = "fist.xml"
 
     SCALE_FACTOR  = 1.1
     MIN_NEIGHBORS = 3

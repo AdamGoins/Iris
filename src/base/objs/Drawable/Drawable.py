@@ -29,7 +29,8 @@ class Drawable:
     def putText(self, image, text, ROI, type=ABOVE, font=HERSHEY_TRIPLEX, scale=1, color=Color.GREEN, thickness=1,
                 xOffset=0, yOffset=0):
 
-        origins = { Drawable.ABOVE: ( ROI.x, ROI.y - 10 ),
+        origins = {
+                    Drawable.ABOVE: ( ROI.x, ROI.y - 10 ),
                     Drawable.BELOW: ( ROI.x, ROI.relativeHeight + 10 ),
                     Drawable.LEFT : ( ROI.x - 2 * len(text), ROI.y),
                     Drawable.RIGHT: ( ROI.relativeWidth + 10, ROI.y)

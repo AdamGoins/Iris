@@ -4,74 +4,126 @@ import imutils
 from lib.IrisImageUtils.Shapes.ShapeDetection import *
 from src.base.objs.CascadeObject.CascadeObject import CascadeObject
 from src.base.objs.DepthPerception import DepthPerception
+from src.base.objs.Drawable import Drawable
 from src.base.objs.Face.Face import Face
+from src.base.objs.Face.FacialRecognition.FacialRecognition import FaceRecognition
 from src.base.objs.Frame.Frame import Frame
+from src.base.objs.Hand.Hand import Hand
 from src.base.objs.Rectangle.Rectangle import Rectangle
+from src.base.objs.Timer import Timer
+from src.base.objs.modules.CannyEdgeDetection.CannyEdgeDetection import CannyEdgeDetection
+from src.base.objs.modules.ContourDetection.ContourDetection import ContourDetection
 from src.base.objs.modules.Threshold.Threshold import Threshold
 from src.base.objs.modules.GaussianBlur.GaussianBlur import GaussianBlur
+import os
+
+faceRecognizer = FaceRecognition(FaceRecognition.LBPH)
 
 
 def main():
 
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     threshold = Threshold()
+
+    template_array = list(os.listdir("../../assets/templates/"))
+
     blur = GaussianBlur()
     faceDetector = CascadeObject(CascadeObject.FACE_FRONTAL_ALT)
+    palmDetector = CascadeObject(CascadeObject.FIST)
+
+    canny = CannyEdgeDetection()
     images = []
 
     depthPerceptor = DepthPerception.DepthPerception()
+    fg = cv2.createBackgroundSubtractorMOG2(history=100)
 
-    faceDetector = CascadeObject(CascadeObject.FACE_FRONTAL_ALT)
+    contourDetector = ContourDetection()
+    eyeDetector = CascadeObject(CascadeObject.EYE)
+    timer = Timer(2)
+    i = 0
     while True:
 
         _, frame = cap.read()
 
-        images = images[0:10]
-        # convert the image to grayscale, blur it, and find edges
-        # in the image
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-
-
-        blurred = blur.blur(gray)
-
 
         bigImage = Frame(frame)
-        # s1 = Frame(threshold.adaptiveThreshold2(blurred,127, Threshold.ADAPTIVE_GAUSSIAN, Threshold.BINARY_INV, 3, 0))
-        # s1.show()
-        #
-        # images.insert(0, gray)
-        # disparity = depthPerceptor.getDisparityMap(images)
-        #
-        # dis = Frame(disparity)
+
+        mask = fg.apply(frame)
+        cv2.imshow("Foreground", mask)
+        faceROIs = bigImage.detectFaces()
 
 
-        faceDetector.detect(frame)
-        for faceROI in faceDetector.resultsAsROI():
-            subFrame = Frame(bigImage.grabROI(faceROI))
-            subFrame.putText("Face", faceROI)
-            subFrame.show()
+        faces = []
+        for faceROI in faceROIs:
+            faces.append(bigImage.grabROI(faceROI))
 
-        # (_, cnts, __) = cv2.findContours(s1.result.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-        # cnts = sorted(cnts, key=cv2.contourArea, reverse=True)[:5]
-        # # loop over our contours
-        #
-        #
-        # for c in cnts:
-        #
-        #     x, y, w, h = cv2.boundingRect(c)
-        #     shape = get_shape(c)
-        #     if shape == "Rectangle":
-        #         cv2.imshow("Rect", frame[y: y+h + 50, x:x+w + 50])
-        #     cv2.putText(frame, shape, (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 125) )
-        #
-        # cv2.drawContours(frame, cnts, -1, (0, 255, 0), 1)
-        cv2.imshow("Frame", frame)
+
+
+        for face in faces:
+
+
+
+            labelNo, confidence = faceRecognizer.recognize(cv2.cvtColor(face.result, cv2.COLOR_BGR2GRAY) )
+
+            if labelNo == -1:
+                break
+            name = faceRecognizer.recognizer.getLabelInfo(labelNo)
+            bigImage.putText(name + "  " + str(100 - int(confidence)) + "%", face,font=Drawable.Drawable.HERSHEY_SCRIPT_SIMPLEX)
+        cv2.imshow("Result", bigImage.result)
+
+
+
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
+
 
 
     cv2.destroyAllWindows()
     cap.release()
 
+
+
+def test():
+    IMAGE_PATH = "/home/syndicate/PycharmProjects/Iris/assets/faces/s2/"
+    faces = os.listdir(IMAGE_PATH)
+    face_images = []
+    for face in faces:
+
+        image = cv2.imread(IMAGE_PATH + face, 0)
+
+        face_images.append(image)
+
+    for face in face_images:
+
+        labelNo, confidence = faceRecognizer.recognize(face)
+        print("Label:", labelNo)
+        print("Confidence:", confidence)
+        if labelNo == -1:
+            break
+        name = faceRecognizer.recognizer.getLabelInfo(labelNo)
+        assert name == "Mike"
+
+    print("Images in s2 map to Mike")
+
+    print("\n\n\n")
+    IMAGE_PATH = "/home/syndicate/PycharmProjects/Iris/assets/faces/s1/"
+    faces = os.listdir(IMAGE_PATH)
+    face_images = []
+    for face in faces:
+
+        image = cv2.imread(IMAGE_PATH + face, 0)
+
+        face_images.append(image)
+
+
+    for face in face_images:
+
+        labelNo, confidence = faceRecognizer.recognize(face)
+        if labelNo == -1:
+            break
+        name = faceRecognizer.recognizer.getLabelInfo(labelNo)
+        assert name == "Adam"
+
+    print("Images in s1 map to Adam")
 
 main()

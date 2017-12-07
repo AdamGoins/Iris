@@ -1,5 +1,8 @@
 import cv2
 
+from src.base.objs.Rectangle.Rectangle import Rectangle
+
+
 class FaceDetection:
 
     def __init__(self):
@@ -18,7 +21,11 @@ class FaceDetection:
             minSize = self.minSize
         )
 
-        return faces
+        faceROIs = []
+        for (x, y, w, h) in faces:
+            faceROIs.append(Rectangle(x, y, w, h))
+
+        return faceROIs
 
 
     def getMinSize(self):
