@@ -31,7 +31,6 @@ class Frame(Transformable, Drawable, Showable):
         self.name = name
 
     def grabROI(self, rect):
-
         image = self.crop(self.result, rect)
         return ROI(image, self, rect)
 

@@ -4,10 +4,11 @@ import cv2
 class Transformable():
 
     def __init__(self, image):
-        self.result = image
+        pass
 
     def resize(self, width=0, height=0):
-        cv2.resize()
+        self.result = cv2.resize(self.result, (width, height))
+        return self.result
 
     def rotate(self, image, angle, scale=1.0):
         width  = image.cols

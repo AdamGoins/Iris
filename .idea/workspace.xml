@@ -2,31 +2,322 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b35f0b59-4b87-4316-8632-930898b17734" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/cascades/fist.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/cascades/palm.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/objs/FaceNormalization/FaceNormalization.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/objs/FaceNormalization/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/objs/Hand/Hand.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/objs/Hand/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/objs/ROI/ROI.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/objs/ROI/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/objs/Timer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/overlay/Overlay.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/overlay/border/Border.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/overlay/container/Container.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/overlay/line/Line.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/overlay/point/Point.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/overlay/shapes/Ellipse.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/Tests1/ChatBot.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/Tests1/ChatTest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/Tests1/TTS.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/apps/ImageProcessor/ImageProcessor.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 18.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 19.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 20.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 21.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 22.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 23.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 24.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 25.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 26.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 27.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 28.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 29.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 30.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 31.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 33.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 34.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 35.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 36.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 37.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 38.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 39.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 41.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 42.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 43.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 44.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 45.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 46.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 47.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 48.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 50.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 51.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 52.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 53.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 54.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 55.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 56.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 57.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 58.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 59.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 60.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 61.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 62.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 63.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 64.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 65.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 66.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 67.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 68.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 69.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 70.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 71.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 72.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 73.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 74.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 75.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 76.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 77.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 78.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 79.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 80.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 81.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 82.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 83.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 84.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 85.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 86.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 87.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 88.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 89.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 90.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 91.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 92.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 93.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 94.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 95.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 96.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 97.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 98.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s1/Adam 99.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-18.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-19.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-20.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-21.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-22.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-23.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-24.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-25.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-26.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-27.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-28.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-29.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-30.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-31.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-33.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-34.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-35.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-36.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-37.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-38.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-39.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-41.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-42.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-43.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-44.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-45.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-46.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-47.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-48.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-50.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-51.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-52.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-53.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-54.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-55.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-56.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-57.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-58.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-59.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-60.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-61.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-62.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-63.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-64.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-65.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-66.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-67.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-68.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-69.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-70.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-71.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-72.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-73.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-74.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-75.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-76.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-77.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-78.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-79.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-80.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-81.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-82.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-83.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-84.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-85.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-86.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-87.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-88.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-89.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-90.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-91.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-92.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-93.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-94.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-95.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-96.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-97.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-98.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s2/Michael-99.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-18.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-19.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-20.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-21.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-22.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-23.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-24.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-25.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-26.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-27.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-28.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-29.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-30.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-31.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-33.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-34.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-35.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-36.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-37.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-38.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-39.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-41.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-42.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-43.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-44.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-45.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-46.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-47.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-48.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-49.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-50.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-51.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-52.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-53.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-54.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-55.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-56.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-57.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-58.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-59.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-60.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-61.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-62.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-63.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-64.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-65.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-66.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-67.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-68.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-69.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-70.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-71.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-72.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-73.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-74.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-75.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-76.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-77.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-78.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-79.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-80.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-81.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-82.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-83.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-84.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-85.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-86.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-87.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-88.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-89.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-90.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-91.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-92.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-93.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-94.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-95.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-96.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-97.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-98.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/faces/s3/Chelsea-99.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/base/objs/CascadeObject/CascadeObject.py" afterPath="$PROJECT_DIR$/src/base/objs/CascadeObject/CascadeObject.py" />
-      <change beforePath="$PROJECT_DIR$/src/base/objs/Drawable/Drawable.py" afterPath="$PROJECT_DIR$/src/base/objs/Drawable/Drawable.py" />
-      <change beforePath="$PROJECT_DIR$/src/base/objs/Face/FacialDetection/FaceDetection.py" afterPath="$PROJECT_DIR$/src/base/objs/Face/FacialDetection/FaceDetection.py" />
+      <change beforePath="$PROJECT_DIR$/src/base/objs/Face/Face.py" afterPath="$PROJECT_DIR$/src/base/objs/Face/Face.py" />
       <change beforePath="$PROJECT_DIR$/src/base/objs/Face/FacialRecognition/FacialRecognition.py" afterPath="$PROJECT_DIR$/src/base/objs/Face/FacialRecognition/FacialRecognition.py" />
+      <change beforePath="$PROJECT_DIR$/src/base/objs/FaceNormalization/FaceNormalization.py" afterPath="$PROJECT_DIR$/src/base/objs/FaceNormalization/FaceNormalization.py" />
       <change beforePath="$PROJECT_DIR$/src/base/objs/Frame/Frame.py" afterPath="$PROJECT_DIR$/src/base/objs/Frame/Frame.py" />
-      <change beforePath="$PROJECT_DIR$/src/base/objs/modules/ContourDetection/ContourDetection.py" afterPath="$PROJECT_DIR$/src/base/objs/modules/ContourDetection/ContourDetection.py" />
+      <change beforePath="$PROJECT_DIR$/src/base/objs/ROI/ROI.py" afterPath="$PROJECT_DIR$/src/base/objs/ROI/ROI.py" />
+      <change beforePath="$PROJECT_DIR$/src/base/objs/Rectangle/Rectangle.py" afterPath="$PROJECT_DIR$/src/base/objs/Rectangle/Rectangle.py" />
+      <change beforePath="$PROJECT_DIR$/src/base/objs/Transformation/Transformations.py" afterPath="$PROJECT_DIR$/src/base/objs/Transformation/Transformations.py" />
+      <change beforePath="$PROJECT_DIR$/src/base/overlay/Overlay.py" afterPath="$PROJECT_DIR$/src/base/overlay/Overlay.py" />
+      <change beforePath="$PROJECT_DIR$/src/base/overlay/border/Border.py" afterPath="$PROJECT_DIR$/src/base/overlay/border/Border.py" />
+      <change beforePath="$PROJECT_DIR$/src/base/overlay/line/Line.py" afterPath="$PROJECT_DIR$/src/base/overlay/line/Line.py" />
       <change beforePath="$PROJECT_DIR$/test/Tests1/TestRunner.py" afterPath="$PROJECT_DIR$/test/Tests1/TestRunner.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,33 +329,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestRunner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Tests1/TestRunner.py">
+      <file leaf-file-name="Point.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/overlay/point/Point.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Overlay.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/overlay/Overlay.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Container.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/overlay/container/Container.py">
+      <file leaf-file-name="Overlay.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/base/overlay/Overlay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -72,23 +351,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ellipse.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/overlay/shapes/Ellipse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Border.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Border.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/overlay/border/Border.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="1258">
+              <caret line="80" column="37" lean-forward="false" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -96,55 +363,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Frame.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/objs/Frame/Frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rectangle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/objs/Rectangle/Rectangle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Line.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/overlay/line/Line.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="85" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Point.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/overlay/point/Point.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatBot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Tests1/ChatBot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Tests1/ChatTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacialRecognition.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/objs/Face/FacialRecognition/FacialRecognition.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,6 +407,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>drawFace</find>
+      <find>gray</find>
+      <find>self.angle =</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,7 +420,6 @@
         <option value="$PROJECT_DIR$/src/base/objs/Drawable/Drawable.py" />
         <option value="$PROJECT_DIR$/src/base/objs/Face/FacialDetection/FaceDetection.py" />
         <option value="$PROJECT_DIR$/src/base/objs/Timer.py" />
-        <option value="$PROJECT_DIR$/src/base/objs/CascadeObject/CascadeObject.py" />
         <option value="$PROJECT_DIR$/src/base/objs/Hand.py" />
         <option value="$PROJECT_DIR$/src/base/objs/modules/ContourDetection/ContourDetection.py" />
         <option value="$PROJECT_DIR$/src/base/objs/Hand/Hand.py" />
@@ -183,19 +429,25 @@
         <option value="$PROJECT_DIR$/test/Tests1/TTS.py" />
         <option value="$PROJECT_DIR$/test/Tests1/ChatBot.py" />
         <option value="$PROJECT_DIR$/src/base/objs/Hand/__init__.py" />
-        <option value="$PROJECT_DIR$/src/base/objs/Frame/Frame.py" />
-        <option value="$PROJECT_DIR$/src/base/objs/ROI/ROI.py" />
-        <option value="$PROJECT_DIR$/src/base/objs/FaceNormalization/FaceNormalization.py" />
         <option value="$PROJECT_DIR$/test/Tests1/ChatTest.py" />
-        <option value="$PROJECT_DIR$/src/base/objs/Face/FacialRecognition/FacialRecognition.py" />
-        <option value="$PROJECT_DIR$/test/Tests1/TestRunner.py" />
-        <option value="$PROJECT_DIR$/src/base/overlay/Overlay.py" />
         <option value="$PROJECT_DIR$/src/base/container/Container.py" />
         <option value="$PROJECT_DIR$/src/base/overlay/container/Container.py" />
         <option value="$PROJECT_DIR$/src/base/overlay/shapes/Ellipse.py" />
         <option value="$PROJECT_DIR$/src/base/overlay/point/Point.py" />
+        <option value="$PROJECT_DIR$/src/base/objs/ROI/ROI.py" />
+        <option value="$PROJECT_DIR$/src/base/objs/Rectangle/Rectangle.py" />
+        <option value="$PROJECT_DIR$/src/base/apps/ImageProcessor.py" />
+        <option value="$PROJECT_DIR$/src/base/objs/CascadeObject/CascadeObject.py" />
+        <option value="$PROJECT_DIR$/src/base/apps/ImageProcessor/ImageProcessor.py" />
+        <option value="$PROJECT_DIR$/src/base/objs/Transformation/Transformations.py" />
+        <option value="$PROJECT_DIR$/src/base/objs/Face/FacialRecognition/FacialRecognition.py" />
+        <option value="$PROJECT_DIR$/src/base/objs/Face/Face.py" />
+        <option value="$PROJECT_DIR$/src/base/objs/FaceNormalization/FaceNormalization.py" />
+        <option value="$PROJECT_DIR$/test/Tests1/TestRunner.py" />
         <option value="$PROJECT_DIR$/src/base/overlay/line/Line.py" />
         <option value="$PROJECT_DIR$/src/base/overlay/border/Border.py" />
+        <option value="$PROJECT_DIR$/src/base/objs/Frame/Frame.py" />
+        <option value="$PROJECT_DIR$/src/base/overlay/Overlay.py" />
       </list>
     </option>
   </component>
@@ -235,6 +487,17 @@
             <path>
               <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
               <item name="Iris" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Iris" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="faces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Iris" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -242,6 +505,21 @@
               <item name="Iris" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Iris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="objs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Iris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="objs" type="462c0819:PsiDirectoryNode" />
+              <item name="Frame" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
@@ -249,6 +527,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="overlay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Iris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="overlay" type="462c0819:PsiDirectoryNode" />
+              <item name="border" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Iris" type="b2602c69:ProjectViewProjectNode" />
@@ -278,13 +564,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GstHanddetect" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/base/overlay" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/cascades" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/base/apps/ImageProcessor" />
+      <recent name="$PROJECT_DIR$/src/base/overlay" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,19 +588,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Line">
-    <configuration name="ChatTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Border" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Tests1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/base/overlay/border" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Iris" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/Tests1/ChatTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/base/overlay/border/Border.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,19 +624,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="FacialRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ImageProcessor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/base/objs/Face/FacialRecognition" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/base/apps/ImageProcessor" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Iris" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/base/objs/Face/FacialRecognition/FacialRecognition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/base/apps/ImageProcessor/ImageProcessor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -392,18 +680,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.TestRunner" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ChatTest" />
-      <item index="2" class="java.lang.String" itemvalue="Python.FacialRecognition" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Ellipse" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Line" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Ellipse" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Line" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Border" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ImageProcessor" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.Line" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Ellipse" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Border" />
         <item index="2" class="java.lang.String" itemvalue="Python.TestRunner" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ChatTest" />
-        <item index="4" class="java.lang.String" itemvalue="Python.FacialRecognition" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ImageProcessor" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Ellipse" />
       </list>
     </recent_temporary>
   </component>
@@ -429,14 +717,14 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1984375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28108674" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28108674" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26854753" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26854753" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39916405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39916405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -451,18 +739,18 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28108674" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28108674" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28108674" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26854753" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1984375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39916405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
@@ -477,376 +765,275 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/base/objs/Drawable/Drawable.py">
+    <entry file="file://$PROJECT_DIR$/assets/faces/s3/Chelsea-70.png" />
+    <entry file="file://$PROJECT_DIR$/assets/faces/s3/Chelsea-32.png" />
+    <entry file="file://$PROJECT_DIR$/assets/faces/s3/Chelsea-19.png" />
+    <entry file="file://$PROJECT_DIR$/assets/faces/s3/Chelsea-17.png" />
+    <entry file="file://$PROJECT_DIR$/assets/faces/s3/Chelsea-67.png" />
+    <entry file="file://$PROJECT_DIR$/assets/templates/1-Adam.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/templates/0-Adam.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/apps/ImageProcessor/ImageProcessor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="89" lean-forward="false" selection-start-line="28" selection-start-column="89" selection-end-line="28" selection-end-column="89" />
+        <state relative-caret-position="414">
+          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Tests1/TestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Tests1/TestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/modules/ContourDetection/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/Showable/Showable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/Face/FacialDetection/FaceDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/modules/CannyEdgeDetection/CannyEdgeDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/Drawable/Drawable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s2/2;Chelsea-50.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/Timer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/Frame/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cascades/haarcascade_frontalface_default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cascades/haarcascade_eye.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cascades/fist.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/Hand.py" />
-    <entry file="file://$PROJECT_DIR$/src/base/objs/DepthPerception/DepthPerception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/modules/ContourDetection/ContourDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/site-packages/pyttsx/driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/site-packages/pyttsx/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/site-packages/pyttsx/engine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/site-packages/IPython/terminal/pt_inputhooks/pyglet.py">
+    <entry file="file://$PROJECT_DIR$/src/base/objs/Transformation/Transformations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/site-packages/pyglet/media/sources/riff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="199" column="0" lean-forward="false" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/site-packages/gtts/tts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/Hand/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/modules/Threshold/Threshold.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/Rectangle/Rectangle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/faces/s1/Adam 76.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/faces/s1/Adam 73.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/faces/s1/Adam 79.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/faces/s1/Adam 51.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/faces/s1/Adam 52.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/ROI/ROI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/Frame/Frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/faces/s1/Adam 74.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/CascadeObject/CascadeObject.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/faces/s1/Adam 0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/faces/s2/Michael-85.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/Hand/Hand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/objs/FaceNormalization/FaceNormalization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="e#1#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Tests1/TTS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Tests1/ChatBot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Tests1/ChatTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/site-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="494" column="44" lean-forward="false" selection-start-line="494" selection-start-column="44" selection-end-line="494" selection-end-column="44" />
-          <folding />
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/objs/Face/FacialRecognition/FacialRecognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="446">
+          <caret line="75" column="39" lean-forward="false" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/faces/s3/Chelsea-6.png">
+    <entry file="file://$PROJECT_DIR$/src/base/objs/FaceNormalization/FaceNormalization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s2/2;Chelsea-0.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s2/2;Chelsea-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s2/2;Chelsea-16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s2/2;Chelsea-10.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s2/2;Chelsea-20.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s2/2;Chelsea-17.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s2/2;Chelsea-12.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s2/2;Chelsea-13.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s2/2;Chelsea-8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-18.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-31.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-34.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-25.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-19.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-38.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-48.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-72.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-76.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-83.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/faces/s1/1;Adam-12.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/objs/Face/Face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="48" column="50" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="48" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Tests1/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="369">
+          <caret line="70" column="59" lean-forward="false" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/overlay/Overlay.py">
+    <entry file="file://$PROJECT_DIR$/test/Tests1/Rectangle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/overlay/container/Container.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/overlay/shapes/Ellipse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/overlay/point/Point.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/objs/Rectangle/Rectangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/overlay/line/Line.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="85" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/objs/Frame/Frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/overlay/border/Border.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="1258">
+          <caret line="80" column="37" lean-forward="false" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/overlay/Overlay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

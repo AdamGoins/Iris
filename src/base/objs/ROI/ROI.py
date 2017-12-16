@@ -23,6 +23,6 @@ class ROI(Rectangle):
     def drawROI(self, thickness=1):
         self.superframe.drawRect(self.ROI, thickness)
 
-    def getsuperframe(self):
+    def superframe(self):
         return self.superframe
 

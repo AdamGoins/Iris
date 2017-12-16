@@ -2,8 +2,10 @@ from src.base.objs.Rectangle.Rectangle import Rectangle
 import cv2
 
 from src.base.overlay.line.Line import Line
-from test.Tests1.Rectangle import Point
 import numpy as np
+
+from src.base.overlay.point.Point import Point
+
 
 class Border(Rectangle):
 
@@ -12,29 +14,62 @@ class Border(Rectangle):
     DASHED = 2
     FRAMED = 3
 
-    def __init__(self, x, y, w, h, borderType=LINE, thickness=1, color=(200,200,200)):
-        super().__init__(x, y, w, h)
+    def __init__(self, rect, borderType=LINE, thickness=1, color=(200,200,200)):
+        super().__init__(rect.x, rect.y, rect.width, rect.height)
         self.borderType = borderType
         self.thickness  = thickness
         self.color      = color
         self.lines      = []
 
-    def createLinedBorder(self):
+        self.createBorder()
 
+    def createBorder(self):
+
+        img = np.zeros((1000, 1000, 3), np.uint8)
+
+        vertices = self.getBoundingBox()
+        width  = self.width
+        height = self.height
+
+        for i in range(len(vertices)):
+            rotation = i * 90
+            length = width if i % 2 == 0 else height
+            line = Line(vertices[i], angle=rotation,length=length, lineType=self.borderType)
+            print(line.origin.origin(), ":", line.length)
+            line.draw(img)
+
+
+
+    def createDashedBorder(self):
+
+        img = np.zeros((1000, 1000, 3), np.uint8)
+        vertices = self.getBoundingBox()
+
+        width  = self.width
+        height = self.height
+        lines  = []
+        for i in range(len(vertices)):
+            rotation = 90 * i
+            length = width if i % 2 == 0 else height
+            line = Line(vertices[i], angle=rotation,length=length)
+            cv2.putText(img, str(rotation), line.origin.origin(), 1, 5, self.color, self.thickness)
+            lines.append(line)
+
+        for line in lines:
+            line.draw(img)
+            cv2.line(img, line.origin.origin(), line.endPoint.origin(), (255,255, 0), 1, 8, 0)
+        cv2.imshow("Oh", img)
+
+    def getBoundingBox(self):
         vertex1 = Point(self.x, self.y)
-        vertex2 = Point(self.x, self.relativeHeight)
-        vertex3 = Point(self.relativeWidth, self.y)
-        vertex4 = Point(self.relativeWidth, self.relativeHeight)
+        vertex2 = Point(self.relativeWidth, self.y)
+        vertex3 = Point(self.relativeWidth, self.relativeHeight)
+        vertex4 = Point(self.x, self.relativeHeight)
 
-        line1 = Line(vertex1, vertex2)
-        line2 = Line(vertex1, vertex3)
-        line3 = Line(vertex2, vertex4)
-        line4 = Line(vertex3, vertex4)
+        vertices = (vertex1, vertex2, vertex3, vertex4)
+        return vertices
 
-        self.lines.append(line1)
-        self.lines.append(line2)
-        self.lines.append(line3)
-        self.lines.append(line4)
+
 
     def draw(self, image):
         for line in self.lines:
@@ -42,7 +77,8 @@ class Border(Rectangle):
 
 
 img = np.zeros((1000,1000,3), np.uint8)
-border = Border(img)
+rect = Rectangle(50, 50, 125, 90)
+border = Border(rect, Border.LINE, 2)
 
 while(1):
     img = np.zeros((1000, 1000, 3), np.uint8)

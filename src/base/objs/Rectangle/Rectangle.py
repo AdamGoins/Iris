@@ -8,7 +8,7 @@ class Rectangle:
         self.update()
 
     def origin(self):
-        return (self.x, self.y)
+        return (self.relativeWidth // 2, self.relativeHeight // 2)
 
     def update(self):
         self.relativeWidth  = self.x + self.width

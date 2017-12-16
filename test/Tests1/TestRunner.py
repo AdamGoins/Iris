@@ -35,7 +35,7 @@ def main():
     images = []
 
     depthPerceptor = DepthPerception.DepthPerception()
-    fg = cv2.createBackgroundSubtractorMOG2(history=100)
+    fg = cv2.createBackgroundSubtractorMOG2(history=5)
 
     contourDetector = ContourDetection()
     eyeDetector = CascadeObject(CascadeObject.EYE)
@@ -53,6 +53,7 @@ def main():
         faceROIs = bigImage.detectFaces()
 
 
+
         faces = []
         for faceROI in faceROIs:
             faces.append(bigImage.grabROI(faceROI))
@@ -61,9 +62,16 @@ def main():
 
         for face in faces:
 
+            faceFrame = Face(face.result)
+            faceFrame.resize(250, 250)
+            faceFrame.result = cv2.cvtColor(faceFrame.result, cv2.COLOR_BGR2GRAY)
+            cv2.imshow("Normal", faceFrame.result)
+            faceFrame.normalize()
+            clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+            faceFrame.result = clahe.apply(faceFrame.result)
+            cv2.imshow("Normalized", faceFrame.result)
 
-
-            labelNo, confidence = faceRecognizer.recognize(cv2.cvtColor(face.result, cv2.COLOR_BGR2GRAY) )
+            labelNo, confidence = faceRecognizer.recognize(faceFrame.result)
 
             if labelNo == -1:
                 break
@@ -73,7 +81,7 @@ def main():
 
 
 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        if cv2.waitKey(10) & 0xFF == ord('q'):
             break
 
 
@@ -81,49 +89,49 @@ def main():
     cv2.destroyAllWindows()
     cap.release()
 
-
-
-def test():
-    IMAGE_PATH = "/home/syndicate/PycharmProjects/Iris/assets/faces/s2/"
-    faces = os.listdir(IMAGE_PATH)
-    face_images = []
-    for face in faces:
-
-        image = cv2.imread(IMAGE_PATH + face, 0)
-
-        face_images.append(image)
-
-    for face in face_images:
-
-        labelNo, confidence = faceRecognizer.recognize(face)
-        print("Label:", labelNo)
-        print("Confidence:", confidence)
-        if labelNo == -1:
-            break
-        name = faceRecognizer.recognizer.getLabelInfo(labelNo)
-        assert name == "Mike"
-
-    print("Images in s2 map to Mike")
-
-    print("\n\n\n")
-    IMAGE_PATH = "/home/syndicate/PycharmProjects/Iris/assets/faces/s1/"
-    faces = os.listdir(IMAGE_PATH)
-    face_images = []
-    for face in faces:
-
-        image = cv2.imread(IMAGE_PATH + face, 0)
-
-        face_images.append(image)
-
-
-    for face in face_images:
-
-        labelNo, confidence = faceRecognizer.recognize(face)
-        if labelNo == -1:
-            break
-        name = faceRecognizer.recognizer.getLabelInfo(labelNo)
-        assert name == "Adam"
-
-    print("Images in s1 map to Adam")
+#
+#
+# def test():
+#     IMAGE_PATH = "/home/syndicate/PycharmProjects/Iris/assets/faces/s2/"
+#     faces = os.listdir(IMAGE_PATH)
+#     face_images = []
+#     for face in faces:
+#
+#         image = cv2.imread(IMAGE_PATH + face, 0)
+#
+#         face_images.append(image)
+#
+#     for face in face_images:
+#
+#         labelNo, confidence = faceRecognizer.recognize(face)
+#         print("Label:", labelNo)
+#         print("Confidence:", confidence)
+#         if labelNo == -1:
+#             break
+#         name = faceRecognizer.recognizer.getLabelInfo(labelNo)
+#         assert name == "Mike"
+#
+#     print("Images in s2 map to Mike")
+#
+#     print("\n\n\n")
+#     IMAGE_PATH = "/home/syndicate/PycharmProjects/Iris/assets/faces/s1/"
+#     faces = os.listdir(IMAGE_PATH)
+#     face_images = []
+#     for face in faces:
+#
+#         image = cv2.imread(IMAGE_PATH + face, 0)
+#
+#         face_images.append(image)
+#
+#
+#     for face in face_images:
+#
+#         labelNo, confidence = faceRecognizer.recognize(face)
+#         if labelNo == -1:
+#             break
+#         name = faceRecognizer.recognizer.getLabelInfo(labelNo)
+#         assert name == "Adam"
+#
+#     print("Images in s1 map to Adam")
 
 main()

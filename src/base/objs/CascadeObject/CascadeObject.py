@@ -6,7 +6,7 @@ from src.base.objs.Rectangle.Rectangle import Rectangle
 
 class CascadeObject:
 
-    CASCADES_PATH = "../../assets/cascades/"
+    CASCADES_PATH = "/home/syndicate/PycharmProjects/Iris/assets/cascades/"
 
     FACE_FRONTAL_ALT     = "haarcascade_frontalface_alt.xml"
     FACE_FRONTAL_DEFAULT = "haarcascade_frontalface_default.xml"
